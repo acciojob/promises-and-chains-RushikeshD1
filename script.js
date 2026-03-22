@@ -7,7 +7,7 @@ document.getElementById("btn").addEventListener('click', (e) => {
 	const name = document.getElementById("name").value.trim();
 
 	if (age==="" || name === ""){
-		alert("Please enter valid details.")
+		alert("Please enter valid details")
 		return
 	}
 
